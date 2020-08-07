@@ -1,0 +1,15 @@
+{
+  "name": "customanimation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass Sass/Main.scss CSS/style.css -w"
+  },
+  "author": "D3COD3M3",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

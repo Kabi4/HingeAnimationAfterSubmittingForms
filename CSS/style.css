@@ -1,0 +1,19 @@
+.animation-controller {
+  text-decoration: none;
+  color: red;
+  font-size: 16px; }
+
+.success {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 8; }
+
+.survey-form {
+  width: 500px;
+  transition: all 2s; }
+  .survey-form:target {
+    transform-origin: top left;
+    transform: rotateZ(90deg) translateY(200px); }
+  .survey-form:target ~ .success {
+    opacity: 1;
+    visibility: visible; }
