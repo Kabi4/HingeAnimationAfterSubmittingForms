@@ -2,6 +2,7 @@
     text-decoration: none;
     color: red;
     font-size: 16px;
+    transition: all 2s;
 }
 .success{
     opacity: 0;
@@ -10,7 +11,7 @@
 }
 .survey-form{
     width: 500px;
-    transition: all 2s;
+    transition: all 2s ease-in-out;
     &:target{
         transform-origin: top left;
         transform: rotateZ(90deg) translateY(200px);
